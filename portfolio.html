@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>BHUKYA ANUSHA</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Iam BHUKYA ANUSHA from ANDHRA PRADESH, currently pursuing BTECH final year CSE in NATIONAL INSTITUTE OF TECHNOLOGY PUDUCHERRY.  </p>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="project">
+        <h3>Project Title 1:Predicted Taxi Fare in NYC</h3>
+        <p>Predicted taxi fare in NYC: Developed a predictive model that could accurately predict taxi fares in NYC based on distance and number of persons.</p>
+        <h3>Project Title 2: Predict whether a person will be vaccinated or not</h3>
+        <p>Developed a predictive model that could accurately predict whether a person will be vaccinated or not.</p>
+      </div>
+    </section>
+    <section id="achivements">
+      <h2>Achievements</h2>
+      <div class="achivements">
+        <h3>MTA: Introduction to Programming Using Python - Certified 2022 – Microsoft </h3>
+        <p>Issued Jun 2022</p>
+        <h3>Python – HackerRank</h3>
+        <p>Issued Jun 2022</p>
+        <h3>SQL(Basic) – HackerRank</h3>
+        <p>Issued Jul 2022</p>
+        </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="submit-form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="PhNo">PhNo:</label>
+        <input type="number" id="PhNo" name="PhNo">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; My Portfolio Website </p>
+  </footer>
+</body>
+</html>
